@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container 1 */
+.container-1{
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content p{
+    font-size: 18px;
+}
+
+.content .img-box {
+    background-color: #E5E7EB;
+    width: 600px;
+    height: 200px;
+    align-self: center;
+}
+
+/* Container 2 */
+.container-2{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card div{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 50px;
+    border-color: #3882F6;
+}
+
+/* Container 3 */
+.container-3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+
+/* Container 4 */
+.container-4 {
+    padding: 100px;
+}
+.container-4 .banner{
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 25px;
+}
+
+/* Container 5 */
+.container-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
